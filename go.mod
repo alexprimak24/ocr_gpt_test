@@ -2,6 +2,8 @@ module github.com/alexprimak24/ocr_gpt_test
 
 go 1.24.1
 
+require github.com/sashabaranov/go-openai v1.40.5
+
 require (
 	cloud.google.com/go v0.100.2 // indirect
 	cloud.google.com/go/compute v1.3.0 // indirect
@@ -11,7 +13,7 @@ require (
 	github.com/google/go-cmp v0.5.7 // indirect
 	github.com/googleapis/gax-go/v2 v2.1.1 // indirect
 	github.com/joho/godotenv v1.5.1 // indirect
-	github.com/sashabaranov/go-openai v1.40.5
+	github.com/supabase-community/storage-go v0.7.0 // indirect
 	go.opencensus.io v0.23.0 // indirect
 	golang.org/x/net v0.0.0-20220127200216-cd36cc0744dd // indirect
 	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8 // indirect
